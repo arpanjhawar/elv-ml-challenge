@@ -2,6 +2,8 @@
 
 ## Scene Segmentation
 
+(Note: The data we provided stores the ground-truths, etc. as torch tensors, while the evaluation code works on numpy arrays. Please do the conversion in order to use this code.)
+
 Requirements:
 
 * Python 3.9.1
