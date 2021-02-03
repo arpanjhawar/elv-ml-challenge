@@ -105,7 +105,7 @@ def calc_miou(gt_dict, pr_dict, shot_to_end_frame_dict, threshold=0.5):
 
 
 def calc_precision_recall(gt_dict, pr_dict, threshold=0.5):
-    """Precision, recall and F1 for scene transitions at a given threshold.
+    """Precision, Recall and F1 for scene transitions at a given threshold.
 
     Args:
         gt_dict: Scene transition ground-truths.
